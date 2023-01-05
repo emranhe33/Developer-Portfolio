@@ -21,6 +21,13 @@
 
 /* header and nav sytles */
 
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,19 +54,30 @@ nav li {
     margin-left: 50px;
 
 }
+
 /* banner style  */
 
 
-.banner{
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
 
 }
 
-.banner-sub-title{
-
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
 }
-.banner-title{
 
+.banner-title {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
-.banner-description{
-    
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
 }
