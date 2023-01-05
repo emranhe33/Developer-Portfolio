@@ -38,6 +38,7 @@ nav {
 nav ul {
     text-decoration: none;
     display: flex;
+    align-items: center;
 
 }
 
@@ -45,4 +46,20 @@ nav li {
     list-style: none;
     margin-left: 50px;
 
+}
+/* banner style  */
+
+
+.banner{
+
+}
+
+.banner-sub-title{
+
+}
+.banner-title{
+
+}
+.banner-description{
+    
 }
