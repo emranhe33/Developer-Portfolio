@@ -99,6 +99,8 @@ main {
 
 .section-title {
     margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .section-description {
@@ -106,7 +108,36 @@ main {
     margin-bottom: 30px;
 }
 
-.information{
+.information {
     display: flex;
     justify-content: space-between;
 }
+
+/* my skills  */
+
+.my-skills {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px #2725250f;
+    border-radius: 10px;
+    padding: 30px;
+}
+.skill-title{
+    margin-top: 30px;
+margin-bottom: 20px;
+}
+.skill-description{
+    margin-bottom: 30px;
+}
+
+/* A summary of My Resume style  */
